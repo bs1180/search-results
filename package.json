@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "next build && next start",
     "type-check": "tsc",
     "test": "jest"
   },
