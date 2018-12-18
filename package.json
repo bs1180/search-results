@@ -1,0 +1,56 @@
+{
+  "name": "search-results",
+  "author": {
+    "name": "Ben Smith"
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "autoprefixer": "^9.4.2",
+    "classnames": "^2.2.6",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^7.0.2",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-import": "^12.0.1",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "react-testing-library": "^5.4.0",
+    "tailwindcss": "^0.7.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@types/jest": "^23.3.10",
+    "@types/next": "^7.0.5",
+    "@types/react": "^16.4.16",
+    "@types/react-dom": "16.0.8",
+    "babel-core": "^7.0.0-bridge",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "typescript": "3.1.1",
+    "jest-dom": "^3.0.0"
+  },
+  "license": "ISC",
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "ts",
+      "tsx"
+    ],
+    "testMatch": [
+      "<rootDir>/__test__/**/*.test.tsx"
+    ],
+    "verbose": true,
+    "transform": {
+      "^.+\\.tsx?$": "babel-jest"
+    }
+  }
+}
